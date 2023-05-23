@@ -14,7 +14,7 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link href="/" style={{fontSize:"20px"}} >Home</Nav.Link>
+            <Nav.Link href="/" style={{fontSize:"20px" }} >Home</Nav.Link>
             <Nav.Link href="/art-gallery" style={{fontSize:"20px"}}>Art gallery</Nav.Link>
             <Nav.Link href="/talent-page" style={{fontSize:"20px"}}>Talents</Nav.Link>
             <Nav.Link href="/today" style={{fontSize:"20px"}} >Today</Nav.Link>
@@ -23,8 +23,8 @@ function CollapsibleExample() {
 
             <NavDropdown style={{fontSize:"20px"}} title="About" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/news" >News</NavDropdown.Item>
-              <NavDropdown.Item href="our-teachers">Our teachers</NavDropdown.Item>
-              <NavDropdown.Item href="contact">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="/our-teachers">Our teachers</NavDropdown.Item>
+              <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
             </NavDropdown>
           </Nav>
 
@@ -32,19 +32,19 @@ function CollapsibleExample() {
            <Nav>
             <tr>
                 <td>
-                <Nav.Link href="#deets"><img src={pr} style={{ borderRadius: '50%' ,width: '35px', height: '35px'}} ></img></Nav.Link>
+                <Nav.Link href="/profile"><img src={pr} style={{ borderRadius: '50%' ,width: '35px', height: '35px'}} ></img></Nav.Link>
                </td>
                 <td>
                 <NavDropdown title="Savindu Harith" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/news" >Profile</NavDropdown.Item>
-                <NavDropdown.Item href="our-teachers">Payments</NavDropdown.Item>
-                <NavDropdown.Item href="contact">Logout</NavDropdown.Item>
+                <NavDropdown.Item href="/profile" >Profile</NavDropdown.Item>
+                <NavDropdown.Item href="/payments">Payments</NavDropdown.Item>
+                <NavDropdown.Item href="/#">Logout</NavDropdown.Item>
                 </NavDropdown>
                 </td>
                 <td>
                 <Nav.Link href="/appointments" style={{fontSize:"20px"}}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-</svg> </Nav.Link>
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                </svg> </Nav.Link>
                 </td>
             </tr>
           </Nav>

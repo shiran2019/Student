@@ -9,6 +9,8 @@ import Today from './Today';
 import News from './News';
 import Ourteachers from './Ourteachers';
 import Contact from './contact';
+import Profile from './Profile';
+import Paymnt from './Paymnt';
 
 
 export default function Paths() {
@@ -18,8 +20,8 @@ export default function Paths() {
    </div>
    <div>
     <Router>
-    
       <Routes>
+
       <Route exact path="/" element={<Home/>}></Route>
       <Route  path="/art-gallery" element={<Artgal/>}></Route>
       <Route  path="/talent-page" element={<TalentPage/>}></Route>
@@ -31,6 +33,8 @@ export default function Paths() {
       <Route  path="/our-teachers"element={<Ourteachers/>}></Route>
       <Route  path="/contact"element={<Contact/>}></Route>
 
+      <Route  path="/payments"element={<Paymnt/>}></Route>
+      <Route  path="/profile"element={<Profile/>}></Route>
 
       </Routes>
       </Router>
