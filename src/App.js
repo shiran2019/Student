@@ -1,17 +1,16 @@
-
-import './App.css';
-import Paths from './pages/Routes';
-import CollapsibleExample from './components/Navbar';
+import "./App.css";
+import Paths from "./pages/Routes";
+import NavigationBar from "./components/Navbar";
 
 function App() {
   return (
     <>
-    <div className="App">
-<CollapsibleExample/>
-    </div>
-<div>
-  <Paths/>
-</div>
+      <div className="App">
+        <NavigationBar />
+      </div>
+      <div>
+        <Paths />
+      </div>
     </>
   );
 }
