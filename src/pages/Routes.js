@@ -14,7 +14,6 @@ import Paymnt from "./Paymnt";
 export default function Paths() {
   return (
     <>
-      <div></div>
       <div>
         <Router>
           <Routes>

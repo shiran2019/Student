@@ -7,7 +7,7 @@ import pr from '../images/pr.jpg'
 
 function NavigationBar() {
   return (
-    <Navbar collapseOnSelect expand="xl" style={{backgroundColor:"#5b5ea6" }}  variant="dark">
+    <Navbar collapseOnSelect expand="xl" style={{backgroundColor:"#2e8b57" , position:"fixed" , top: 0, width: "100%"}}  variant="dark" >
       <Container>
     
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

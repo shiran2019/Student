@@ -8,6 +8,7 @@ function App() {
       <div className="App">
         <NavigationBar />
       </div>
+      <div style={{ padding: "4% " }}></div>
       <div>
         <Paths />
       </div>
