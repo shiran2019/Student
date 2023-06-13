@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Artgal from "../pages/Artgal";
-import TalentPage from "../pages/Talentpage";
-import TermEvaluations from "../pages/TermEvaluations";
-import Appointments from "../pages/Appointments";
-import Today from "./Today";
-import News from "./News";
-import Ourteachers from "./Ourteachers";
-import Contact from "./contact";
-import Profile from "./Profile";
-import Paymnt from "./Paymnt";
+import Artgal from "./Main pages/ArtGallery/Artgal";
+import TalentPage from "./Main pages/Tallents/Talentpage";
+import TermEvaluations from "./Main pages/TermEvaluation/TermEvaluations";
+import Appointments from "./Main pages/Appointments/Appointments";
+import Today from "./Main pages/Today/Today";
+import News from "./Main pages/About/News";
+import Ourteachers from "./Main pages/About/Ourteachers";
+import Contact from "./Main pages/About/contact";
+import Profile from "../pages/Main pages/Profile/Profile";
+import Paymnt from "./Main pages/Profile/Paymnt";
 
 export default function Paths() {
   return (

@@ -14,13 +14,13 @@ function NavigationBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link href="/art-gallery" style={{fontSize:"20px"}}>Art gallery</Nav.Link>
-            <Nav.Link href="/talent-page" style={{fontSize:"20px"}}>Talents</Nav.Link>
-            <Nav.Link href="/today" style={{fontSize:"20px"}} >Today</Nav.Link>
-            <Nav.Link href="/term-evaluations" style={{fontSize:"20px"}}>Term evaluations</Nav.Link>
-            <Nav.Link href="/appointments" style={{fontSize:"20px"}}>Appointments</Nav.Link>
+            <Nav.Link href="/art-gallery" style={{fontSize:"20px", marginRight:"8px"}}>Art gallery</Nav.Link>
+            <Nav.Link href="/talent-page" style={{fontSize:"20px", marginRight:"8px"}}>Talents</Nav.Link>
+            <Nav.Link href="/today" style={{fontSize:"20px", marginRight:"8px"}} >Today</Nav.Link>
+            <Nav.Link href="/term-evaluations" style={{fontSize:"20px", marginRight:"8px"}}>Term evaluations</Nav.Link>
+            <Nav.Link href="/appointments" style={{fontSize:"20px", marginRight:"8px"}}>Appointments</Nav.Link>
 
-            <NavDropdown style={{fontSize:"20px"}} title="About" id="collasible-nav-dropdown">
+            <NavDropdown style={{fontSize:"20px", marginRight:"8px"}} title="About" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/news" >News</NavDropdown.Item>
               <NavDropdown.Item href="/our-teachers">Our teachers</NavDropdown.Item>
               <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
